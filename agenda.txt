@@ -33,3 +33,13 @@ now push the entire code on GITHUB.
     git init
     git add .
     git commit -m "added"
+
+    git remote add origin https://github.com/user-name/ml_c_new.git
+
+    git push -u origin master
+
+go to streamlit cloud ---> create with github account
+
+click on "create app" ---> click on "Deploy a public app from GitHub"
+
+click on advance setting and paste your API here in string "" format.
