@@ -1,0 +1,35 @@
+chatbot -----> user input ---> bot respond in text format.
+
+steps:
+
+uv init heltro
+uv venv
+.venv\Scripts\activate
+
+
+now we will create a requirements.txt file   -----> 
+
+streamlit ---> for ui
+
+python-dotenv ---> using this method , we can import our secret in main file
+
+googlegenerativeai ---> gemini library
+
+API ---> application programming interfacee ---> user <---> server
+
+now open terminal and write :  uv add -r requirements.txt
+
+now we have to create .env file --> where we store our secret credentials.
+
+now we have to create app.py file where we will write our main logic
+    function(input/query) ---> google_generative_model + gemini_api_key
+
+ui ---> streamlit
+
+open terminal and write :
+    streamlit run app.py
+
+now push the entire code on GITHUB.
+    git init
+    git add .
+    git commit -m "added"
